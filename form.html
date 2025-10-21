@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+</head>
+<body>
+
+    <form id="registrationForm">
+        <h2>Registrasi</h2>
+        
+        <div>
+            <label for="namaDepan">Nama Depan:</label>
+            <input type="text" id="namaDepan" name="namaDepan" required>
+        </div>
+        
+        <div>
+            <label for="namaBelakang">Nama Belakang:</label>
+            <input type="text" id="namaBelakang" name="namaBelakang" required>
+        </div>
+        
+        <button type="button" id="submitButton" onclick="tampilkanNama()">Kirim</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
